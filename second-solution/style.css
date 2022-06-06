@@ -1,0 +1,41 @@
+* {
+  user-select: none;
+}
+.content {
+  display: flex;
+}
+.content-2 {
+  margin-top: 5px;
+}
+.draggable {
+  cursor: move;
+  z-index: 1;
+  text-align: center;
+}
+.char {
+  cursor: move;
+  font-size: 100px;
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+#one {
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+  top: 0;
+  left: 0;
+}
+#two {
+  width: 100px;
+  height: 100px;
+  background-color: #0f0;
+  top: 0;
+  left: 100px;
+}
+#string {
+  margin-top: 5px;
+  display: flex;
+}
